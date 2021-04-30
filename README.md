@@ -1,5 +1,7 @@
 # Teste Tecnico Smarkio - QA
 
+
+
 ### Linguagem Utilizada
 
 Ruby
@@ -18,7 +20,11 @@ As Gems utilizadas foram:
 - 'cucumber', '3.1.2'
 - 'faker'
 - 'ffaker'
+- 'json'
+- 'poltergeist'
 - 'pry', '0.11.3'
+- 'report_builder', '1.9'
+- 'reportportal', '0.7'
 - 'rspec'
 - 'rubytree', '1.0.0'
 - 'screen-recorder'
