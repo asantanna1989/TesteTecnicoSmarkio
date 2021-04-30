@@ -1,10 +1,10 @@
-## Teste Tecnico Smarkio - QA
+# Teste Tecnico Smarkio - QA
 
-# Linguagem Utilizada
+### Linguagem Utilizada
 
 Ruby
 
-## Pré-requisitos:
+### Pré-requisitos:
 
 Antes de começar, Será necessário ter instalado em sua máquina as ferramentas: [Ruby] e um editor de texto como o [VCode], além da ferramenta [Bundler] usada para gerenciar dependências Rubygems em bibliotecas Ruby.
 
@@ -26,7 +26,7 @@ As Gems utilizadas foram:
 - 'ffmpeg'
     
  
-## Construção
+### Construção
 
 
 -   Para instalar o bundle:
