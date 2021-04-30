@@ -116,3 +116,8 @@ As Gems utilizadas foram:
 -   Para exercutar o teste:
 
 > $ cucumber 
+
+## Evidencias de Teste
+
+Para as evidencias de testes, foram salvos screenshots e vídeos de cada validação de cenário. As evidências em vídeo se encontram armazenadas na pasta data/video, enquanto as evidências de imagens se encontram na pasta data/screenshots.
+
