@@ -11,63 +11,50 @@ O teste proposto se baseia em criar um teste automatizado que faça o fluxo de p
 
 Para isto, o E-commerce escolhido foi o site da DLK Modas pesquisando por 'MACACÃO', foi selecionado o produto 'MACACÃO ENERGY DECOTE CRUZADO ROSA BEBÊ' que foi adicionado ao carrinho. 
 
-O automação foi subdividida em três cenários.
+O automação foi subdividida em quatro cenários.
 
 -No primeiro cenário, o usuário entra no site da DLK, busca pelo produto e valida a busca. 
 
 -No segundo cenário, o usuário entra no site da DLK, busca pelo produto, selecioando o tamanho P e valida que o produto foi adicionado ao carrinho.
 
--No segundo cenário, o usuário entra no site da DLK, busca pelo produto, selecioando o tamanho M e valida que o produto foi adicionado ao carrinho.
+-No terceiro cenário, o usuário entra no site da DLK, busca pelo produto, selecioando o tamanho M e valida que o produto foi adicionado ao carrinho.
 
--No segundo cenário, o usuário entra no site da DLK, busca pelo produto, selecioando o tamanho G e valida que o produto foi adicionado ao carrinho.
+-No quarto cenário, o usuário entra no site da DLK, busca pelo produto, selecioando o tamanho G e valida que o produto foi adicionado ao carrinho.
 
 
 ## BDD
 
 Funcionalidade: Validar buscas e compras no site da DLK modas
 
-    Sendo um visitante
-    
-    Quero buscar um produto 
-    
+    Sendo um visitante    
+    Quero buscar um produto    
     Para que possa colocar no carrinho
 
 Cenario: Busca
 
-    Dado que estou na pagina inicial da DLK modas
-    
-    Quando busco pelo produto 'macacão'
-    
+    Dado que estou na pagina inicial da DLK modas    
+    Quando busco pelo produto 'macacão'    
     Então visualizo a seguinte mensagem 'MACACÃO'
 
 Cenario: CarrinhoP
 
-    Dado que estou na pagina inicial da DLK modas
-    
-    Quando busco pelo produto 'macacão'
-    
-    E seleciono a quantidade de '1' produto no tamanho 'P'
-    
+    Dado que estou na pagina inicial da DLK modas    
+    Quando busco pelo produto 'macacão'    
+    E seleciono a quantidade de '1' produto no tamanho 'P'    
     Então valido que o produto foi adicionado ao carrinho no tamanho 'P'  
 
 Cenario: CarrinhoM
 
-    Dado que estou na pagina inicial da DLK modas
-    
-    Quando busco pelo produto 'macacão'
-    
-    E seleciono a quantidade de '1' produto no tamanho 'M'
-    
+    Dado que estou na pagina inicial da DLK modas    
+    Quando busco pelo produto 'macacão'    
+    E seleciono a quantidade de '1' produto no tamanho 'M'    
     Então valido que o produto foi adicionado ao carrinho no tamanho 'M' 
 
 Cenario: CarrinhoG
 
-    Dado que estou na pagina inicial da DLK modas
-    
-    Quando busco pelo produto 'macacão'
-    
-    E seleciono a quantidade de '1' produto no tamanho 'G'
-    
+    Dado que estou na pagina inicial da DLK modas    
+    Quando busco pelo produto 'macacão'    
+    E seleciono a quantidade de '1' produto no tamanho 'G'    
     Então valido que o produto foi adicionado ao carrinho no tamanho 'G' 
 
 
