@@ -35,9 +35,10 @@ As Gems utilizadas foram:
 ### Construção
 
 
--   Para instalar o bundle:
+-   Para instalar o bundler:
 
-> $ sudo get install bundler
+> $ sudo apt-get update
+> $ sudo apt-get install bundler
 
 -   Para criar o arquivo genfile
 
