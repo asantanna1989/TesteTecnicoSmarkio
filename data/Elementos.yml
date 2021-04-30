@@ -1,0 +1,8 @@
+  ### elementos ###
+
+  quantidade_p: "#quantidade-291443"
+  quantidade_m: "#quantidade-291442"
+  quantidade_g: "#quantidade-291441"
+  produto_escolhido: "#produto-spot-item-78871"
+  input_search: 'input[placeholder="Busque aqui.."]'
+  btn_search: "#btnBusca"
