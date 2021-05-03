@@ -1,9 +1,11 @@
-require 'capybara'
-require 'capybara/cucumber'
-require 'pry'
 require 'rspec'
-require 'selenium-webdriver'
 require 'yaml'
+require 'pry'
+require 'capybara/cucumber'
+require 'ffaker'
+require 'faker'
+require 'selenium-webdriver'
+require 'screen-recorder'
 
 
 EL = YAML.load_file('data/Elementos.yml')
