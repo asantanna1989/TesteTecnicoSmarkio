@@ -113,3 +113,37 @@ As Gems utilizadas foram:
 
 Para as evidencias de testes, foram salvos screenshots e vídeos de cada validação de cenário. As evidências em vídeo se encontram armazenadas na pasta data/video, enquanto as evidências de imagens se encontram na pasta data/screenshots.
 
+### Screenshots
+
+- Validação da Busca
+
+![EvidenciaBuscaScreenshot](https://github.com/asantanna1989/TesteTecnicoSmarkio/blob/main/data/screenshots/valida_busca.png)
+
+- Validação Colocar o produto tamanho P no Carrinho 
+
+![EvidenciaPScreenshot](https://github.com/asantanna1989/TesteTecnicoSmarkio/blob/main/data/screenshots/valida_carrinho_p.png)
+
+- Validação Colocar o produto tamanho M no Carrinho 
+
+![EvidenciaMScreenshot](https://github.com/asantanna1989/TesteTecnicoSmarkio/blob/main/data/screenshots/valida_carrinho_m.png)
+
+- Validação Colocar o produto tamanho G no Carrinho 
+
+![EvidenciaGScreenshot](https://github.com/asantanna1989/TesteTecnicoSmarkio/blob/main/data/screenshots/valida_carrinho_g.png)
+
+
+### Vídeos 
+
+- Validação da Busca
+[![](http://img.youtube.com/vi/Ph45ifFb10A/0.jpg)](http://www.youtube.com/watch?v=Ph45ifFb10A "")
+
+
+- Validação Colocar o produto tamanho P no Carrinho 
+
+
+
+- Validação Colocar o produto tamanho M no Carrinho
+
+
+- Validação Colocar o produto tamanho G no Carrinho 
+
