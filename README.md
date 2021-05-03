@@ -134,16 +134,8 @@ Para as evidencias de testes, foram salvos screenshots e vídeos de cada valida�
 
 ### Vídeos 
 
-- Validação da Busca
+- Terminal
+
 [![](http://img.youtube.com/vi/Ph45ifFb10A/0.jpg)](http://www.youtube.com/watch?v=Ph45ifFb10A "")
 
-
-- Validação Colocar o produto tamanho P no Carrinho 
-
-
-
-- Validação Colocar o produto tamanho M no Carrinho
-
-
-- Validação Colocar o produto tamanho G no Carrinho 
 
