@@ -144,6 +144,6 @@ As evidências na forma de screenshots da tela podem ser vistas  a seguir.
 As evidências na forma de videos foram armazenadas na pasta data/video, A seguir, um preview da automação rodando no terminal.
 - Terminal
 
-![Terminal](https://github.com/asantanna1989/TesteTecnicoSmarkio/blob/main/data/evidencia_terminal.gif)
+![EvidenciaTerminal](https://github.com/asantanna1989/TesteTecnicoSmarkio/blob/main/data/evidencia_terminal1.gif)
 
 
