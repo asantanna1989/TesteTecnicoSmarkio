@@ -95,6 +95,7 @@ As Gems utilizadas foram:
 -   Para instalar o bundler:
 
 > $ sudo apt-get update
+
 > $ sudo apt-get install bundler
 
 -   Para criar o arquivo genfile
