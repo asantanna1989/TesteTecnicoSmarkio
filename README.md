@@ -1,6 +1,6 @@
 # Teste Tecnico Smarkio - QA
 
-O teste proposto se baseia em criar um teste automatizado que faça o fluxo de ponta a ponta de um cliente que:
+O teste proposto baseia-se em criar um teste automatizado que faça o fluxo de ponta a ponta de um cliente que:
 
  1. Entre em um portal e-commerce 
  2. Faça uma busca por um produto
@@ -9,17 +9,17 @@ O teste proposto se baseia em criar um teste automatizado que faça o fluxo de p
  5. Adicione o carrinho
  6. Valide o produto foi enviado para o carrinho com sucesso.
 
-Para isto, o E-commerce escolhido foi o site da DLK Modas pesquisando por 'MACACÃO', foi selecionado o produto 'MACACÃO ENERGY DECOTE CRUZADO ROSA BEBÊ' que foi adicionado ao carrinho. 
+Para isto, o E-commerce escolhido foi o site da DLK Modas pesquisando por 'MACACÃO', foi selecionado o produto 'MACACÃO ENERGY DECOTE CRUZADO ROSA BEBÊ' que foi adicionado ao carrinho nos tamanhos P, M e G. 
 
 O automação foi subdividida em quatro cenários.
 
-- No primeiro cenário, o usuário entra no site da DLK, busca pelo produto e valida a busca. 
+- Primeiro Cenário: Usuário entra no site da DLK, busca pelo produto e valida a busca. 
 
-- No segundo cenário, o usuário entra no site da DLK, busca pelo produto, selecioando o tamanho P e valida que o produto foi adicionado ao carrinho.
+- Segundo Cenário: Usuário entra no site da DLK, busca pelo produto, selecioando o tamanho P e valida que o produto foi adicionado ao carrinho.
 
-- No terceiro cenário, o usuário entra no site da DLK, busca pelo produto, selecioando o tamanho M e valida que o produto foi adicionado ao carrinho.
+- Terceiro Cenário: Usuário entra no site da DLK, busca pelo produto, selecioando o tamanho M e valida que o produto foi adicionado ao carrinho.
 
-- No quarto cenário, o usuário entra no site da DLK, busca pelo produto, selecioando o tamanho G e valida que o produto foi adicionado ao carrinho.
+- Quarto Cenário: Usuário entra no site da DLK, busca pelo produto, selecioando o tamanho G e valida que o produto foi adicionado ao carrinho.
 
 
 ## BDD
@@ -30,27 +30,27 @@ Funcionalidade: Validar buscas e compras no site da DLK modas
     Quero buscar um produto    
     Para que possa colocar no carrinho
 
-Cenario: Busca
+Cenario: Usuario entra na pagina inicial da loja DLK e busca por macacao
 
     Dado que estou na pagina inicial da DLK modas    
     Quando busco pelo produto 'macacão'    
     Então visualizo a seguinte mensagem 'MACACÃO'
 
-Cenario: CarrinhoP
+Cenario: Usuario adiciona um produto tamanho p ao carrinho
 
     Dado que estou na pagina inicial da DLK modas    
     Quando busco pelo produto 'macacão'    
     E seleciono a quantidade de '1' produto no tamanho 'P'    
     Então valido que o produto foi adicionado ao carrinho no tamanho 'P'  
 
-Cenario: CarrinhoM
+Cenario: Usuario adiciona um produto tamanho m ao carrinho
 
     Dado que estou na pagina inicial da DLK modas    
     Quando busco pelo produto 'macacão'    
     E seleciono a quantidade de '1' produto no tamanho 'M'    
     Então valido que o produto foi adicionado ao carrinho no tamanho 'M' 
 
-Cenario: CarrinhoG
+Cenario: Usuario adiciona um produto tamanho g ao carrinho
 
     Dado que estou na pagina inicial da DLK modas    
     Quando busco pelo produto 'macacão'    
@@ -82,6 +82,7 @@ As Gems utilizadas foram:
  
 ### Construção
 
+Os passos a seguir são necessários para a construção do teste.
 
 -   Para instalar o bundler:
 
@@ -111,9 +112,11 @@ As Gems utilizadas foram:
 
 ## Evidencias de Teste
 
-Para as evidencias de testes, foram salvos screenshots e vídeos de cada validação de cenário. As evidências em vídeo se encontram armazenadas na pasta data/video, enquanto as evidências de imagens se encontram na pasta data/screenshots.
+As evidências de teste foram geradas na forma de screenshots e vídeos de cada validação de cenário. As evidências em vídeo se encontram armazenadas na pasta data/video, enquanto as evidências de imagens se encontram na pasta data/screenshots.
 
 ### Screenshots
+
+As evidências na forma de screenshots da tela podem ser vistas  a seguir.
 
 - Validação da Busca
 
@@ -134,6 +137,7 @@ Para as evidencias de testes, foram salvos screenshots e vídeos de cada valida�
 
 ### Vídeos 
 
+As evidências na forma de videos foram armazenadas na pasta data/video, A seguir, um preview da automação rodando no terminal.
 - Terminal
 
 ![Terminal](https://github.com/asantanna1989/TesteTecnicoSmarkio/blob/main/data/evidencia_terminal.gif)
